@@ -4,6 +4,6 @@ $('.first').on('click', () => {
 $('.second').on('click', () => {
     $(".first").css("background-color", "blue")
   });
-  $('.third').on('click', () => {
-    $("button").css("background-color", val(.barva))
+  $('.third').one('click', () => {
+    $("button").css("background-color", document.getElementById('barva').value)
 });
